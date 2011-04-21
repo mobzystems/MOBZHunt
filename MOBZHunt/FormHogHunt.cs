@@ -525,7 +525,7 @@ namespace MOBZystems.MOBZHunt
       this.toolStripStatusLink.IsLink = true;
       this.toolStripStatusLink.Name = "toolStripStatusLink";
       this.toolStripStatusLink.Size = new System.Drawing.Size(155, 17);
-      this.toolStripStatusLink.Text = "MOBZHunt v# by MOBZystems";
+      this.toolStripStatusLink.Text = "MOBZHunt v# by MOBZystems (@-bit)";
       this.toolStripStatusLink.ToolTipText = "http://www.mobzystems.com/tools/MOBZHunt.aspx";
       this.toolStripStatusLink.Click += new System.EventHandler(this.toolStripStatusLink_Click);
       // 
@@ -907,7 +907,8 @@ namespace MOBZystems.MOBZHunt
       }
 
       Version v = new Version(Application.ProductVersion);
-      this.toolStripStatusLink.Text = this.toolStripStatusLink.Text.Replace("#", v.Major.ToString() + "." + v.Minor.ToString() + "." + v.Build.ToString());
+      int bits = IntPtr.Size * 8;
+      this.toolStripStatusLink.Text = this.toolStripStatusLink.Text.Replace("#", v.Major.ToString() + "." + v.Minor.ToString() + "." + v.Build.ToString()).Replace("@", bits.ToString());
 		}
 
     private bool ComboContains(string item)

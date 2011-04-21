@@ -5,7 +5,7 @@ using System.Windows.Forms;
 namespace MOBZystems.MOBZHunt
 {
   // The structure to use to communicate with SHFileOperation
-  [StructLayout(LayoutKind.Sequential, Pack=1, CharSet=CharSet.Auto)]
+  [StructLayout(LayoutKind.Sequential, CharSet=CharSet.Auto)]
   struct SHFILEOPSTRUCT
   {
     public System.IntPtr hWnd;

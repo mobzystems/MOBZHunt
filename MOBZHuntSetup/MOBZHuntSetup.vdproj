@@ -151,7 +151,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_CE600CEDEF6B4872B3BA0542690D0FDB"
             {
-            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -178,7 +178,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MOBZHunt"
         "ProductCode" = "8:{E47A6052-382E-420B-9397-F1B04E39F612}"
-        "PackageCode" = "8:{6BC519AF-57FB-446B-B87A-19D8E645F05F}"
+        "PackageCode" = "8:{62C4EDD7-302E-4CB7-8DB3-2D7F00ECA05E}"
         "UpgradeCode" = "8:{0706BEA7-E9E1-4813-9F3B-43CA92B5D532}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -199,7 +199,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:1"
+        "TargetPlatform" = "3:0"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
